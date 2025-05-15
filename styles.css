@@ -145,3 +145,12 @@ body {
 .streamer-card .popup-button {
   display: inline-block;
 }
+
+.stardew-image {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
