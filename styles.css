@@ -105,3 +105,43 @@ body {
   margin-bottom: 10px;
   color: #4f46e5;
 }
+
+.streamer-list div {
+  margin: 10px 0;
+}
+.streamer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.streamer-card {
+  background-color: #f9f9ff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.streamer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.streamer-card h3 {
+  margin-top: 0;
+  color: #4f46e5;
+  font-size: 1.2rem;
+}
+
+.streamer-card p {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.streamer-card .popup-button {
+  display: inline-block;
+}
